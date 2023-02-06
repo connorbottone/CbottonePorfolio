@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import { send } from 'emailjs-com';
+import '../styles/dataform.css'
 const FormData = () => {
     const [toSend, setToSend] = useState({
         from_name: '',
@@ -24,6 +25,8 @@ const FormData = () => {
       const handleChange = (e) => {
         setToSend({ ...toSend, [e.target.name]: e.target.value });
       };
+
+
     return (
         <div className="App">
             <form onSubmit={onSubmit}>
@@ -49,7 +52,7 @@ const FormData = () => {
                     value={toSend.reply_to}
                     onChange={handleChange}
                 />
-                <button type='submit'>Submit</button>
+                <button type='submit'>S U B M I T</button>
             </form>
         </div>
     );
