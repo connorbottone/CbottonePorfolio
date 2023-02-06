@@ -2,10 +2,10 @@ import React, { useState } from 'react';
 
 import { Header, Aboutme, Portfolio, Contactme, Footer, Resume} from '../src/components'
 
-
+//setting defult page to Aboutme to render on page load
 function App() {
 
-  const [currentPage, setCurrentPage] = useState("About");
+  const [currentPage, setCurrentPage] = useState("Aboutme");
 
   return (
     <>
