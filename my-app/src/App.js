@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import './App.css';
-import { Header, Aboutme, Portfolio, Contactme, Footer, Resume } from './component'
+
+import { Header, Aboutme, Portfolio, Contactme, Footer, Resume} from '../src/components'
 
 
 function App() {
@@ -10,11 +10,11 @@ function App() {
   return (
     <>
       <Header currentPage={currentPage} setCurrentPage={setCurrentPage} />
-      {currentPage === "About" && <Aboutme />}
+      {currentPage === "Aboutme" && <Aboutme />}
       {currentPage === "Portfolio" && <Portfolio />}
-      {currentPage === "Contact" && <Contactme />}
+      {currentPage === "Contactme" && <Contactme />}
       {currentPage === "Resume" && <Resume />}
-      <br></br>
+      
       <Footer />
     </>
   );
