@@ -3,7 +3,6 @@ import { send } from 'emailjs-com';
 const FormData = () => {
     const [toSend, setToSend] = useState({
         from_name: '',
-        to_name: '',
         message: '',
         reply_to: '',
       });
@@ -35,13 +34,7 @@ const FormData = () => {
                     value={toSend.from_name}
                     onChange={handleChange}
                 />
-                <input
-                    type='text'
-                    name='to_name'
-                    placeholder='to name'
-                    value={toSend.to_name}
-                    onChange={handleChange}
-                />
+                
                 <input
                     type='text'
                     name='message'
