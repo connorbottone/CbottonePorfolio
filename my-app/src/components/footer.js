@@ -27,7 +27,8 @@ border: {
     height: '110px',
     border: '1px solid black',
     margin: 'auto',
-    marginTop: '750px',
+    marginTop: '800px',
+  
     borderRadius: '80px',
     border: '2px solid bisque',
    
@@ -50,7 +51,7 @@ const Footer= ({x,setCurrentPage}) => {
   </svg></a><p>Gmail</p>
   <br></br>
   <br></br>
-  <a href='https://www.indeed.com/'>
+  <a href='https://my.indeed.com/p/connorb-movm7b2'>
   <svg style={style.img} xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
     <path fill="#00A9E0" d="M471.1,227.5v-36.8h-70.5v36.8H471.1z M471.1,295.3v-70.5h-70.5v70.5H471.1z M471.1,359.8v-36.8h-70.5v36.8H471.1z M200.5,359.8h70.5v-36.8h-70.5V359.8z M471.1,0H40.9C18.3,0,0,18.3,0,40.9v430.3C0,493.7,18.3,512,40.9,512h430.3c22.6,0,40.9-18.3,40.9-40.9V40.9C512,18.3,493.7,0,471.1,0z M200.5,71.4v71.4h-70.5V71.4H200.5z M200.5,143.7v71.4h-70.5v-71.4H200.5z M471.1,430.3H40.9V40.9h430.3V430.3z M471.1,287.7H300.6v-70.5h170.5V287.7z M471.1,223.3H300.6v-36.8h170.5V223.3z"/>
   </svg>
