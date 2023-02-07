@@ -8,18 +8,20 @@
     border-radius: 10px;
     margin-top: 130px;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-    border: 2px solid bisque;
+    border: 2px solid  rgb(184, 132, 65);
+    background-color: bisque;
 }
 .card-outer {
     width: 500px;
     height: 300px;
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-    border-radius: 5px;
+    box-shadow: 0px 15px 25px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
     overflow: hidden;
     margin: 50px auto;
-    background-color: bisque;
-  }
-  
+    z-index: 5;
+    background-color: rgb(250, 208, 157);
+    border: 2px solid rgb(184, 132, 65);}
+
   .card-inner {
     display: flex;
     flex-direction: row;
