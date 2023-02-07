@@ -1,4 +1,5 @@
 import React from 'react';
+import '../styles/header.css'
 
 
 const page = ["Aboutme", "Portfolio", "Contactme", "Resume"];
@@ -9,7 +10,8 @@ const Header = ({ currentPage, setCurrentPage }) => {
             <h1 className="title">My Portfolio</h1>
             <div className="nav">
                 {page.map((page) => (
-                    <div
+                    
+                    <div  id="nav-page"
                         className={currentPage === page ? "navActive" : "nav"}
                         onClick={() => setCurrentPage(page)}
                     >

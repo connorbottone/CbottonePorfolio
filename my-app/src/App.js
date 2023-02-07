@@ -9,13 +9,14 @@ function App() {
 
   return (
     <>
+    <div id= "background">
       <Header currentPage={currentPage} setCurrentPage={setCurrentPage} />
       {currentPage === "Aboutme" && <Aboutme />}
       {currentPage === "Portfolio" && <Portfolio />}
       {currentPage === "Contactme" && <Contactme />}
       {currentPage === "Resume" && <Resume />}
       
-      <Footer />
+      <Footer /></div>
     </>
   );
 }
