@@ -10,11 +10,13 @@ const ContactMe = () => {
     return (
         <div>
             <h1>ContactMe Me</h1>
+            <div id ="h3"></div>
             <card id='h2'>
-                <h3>Contact Me Directly Via email  </h3>
-                <h3>by filling out the to the side.
+                <h3>CONTACT ME DIRECTLY </h3>
+                
+                <h3>VIA EMAIL &#8594;
                     </h3>
-                    <h3>This email sumbission was made using emailjs</h3>
+                    <h3>MADE USING EMAILJS</h3>
                         </card>
             <FormData />
        

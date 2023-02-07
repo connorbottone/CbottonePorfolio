@@ -28,7 +28,7 @@ border: {
     margin: 'auto',
     marginTop: '750px',
     borderRadius: '80px',
-  
+    border: '2px solid bisque',
    
         
 },}

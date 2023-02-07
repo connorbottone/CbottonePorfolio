@@ -3,7 +3,8 @@ import '../styles/aboutme.css'
 import test from '../images/test.png'
 const AboutMe = () => {
     return (
-        <div class="card-outer">
+       
+        <div className="outer-card"><div class="card-outer">
         <div class="card-inner">
         <img src={test} alt="Your Image" className="profile-pic" />
           <div class="about-me">
@@ -12,6 +13,7 @@ const AboutMe = () => {
           </div>
         </div>
       </div>
+        </div>
       )}
             
 

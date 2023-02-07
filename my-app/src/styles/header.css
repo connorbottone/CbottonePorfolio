@@ -1,7 +1,7 @@
 
       .header {
-        background-color: #3c3f41;
-        color: #f09116;
+        background-color: #0a96f3;
+        color: #f1d21d;
         padding: 4px;
         height: 100%;
         width: 110%;
@@ -39,7 +39,7 @@
         }
         
         .nav div:hover {
-        color: blue;
+        color: #f09116;
         }
         
         .navActive {

@@ -8,8 +8,9 @@
     border-radius: 10px;
     box-shadow: 0px 0px 10px #ccc;
     height: 400px;
-    width: 30%;
-    margin-left: 800px;
+    width: 40%;
+    margin-left: 600px;
+    border: 2px solid bisque;
   }
   
   .App input[type='text'] {
@@ -23,6 +24,7 @@
     height: auto;
     inline-size: 450px;
     overflow-wrap: break-word; 
+    border: 2px solid bisque;
       
   }
   
