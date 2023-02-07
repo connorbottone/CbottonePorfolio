@@ -4,9 +4,11 @@
         color: #f09116;
         padding: 4px;
         height: 100%;
-        width: 100%;
-        margin-left: px;
+        width: 110%;
+        
         text-align: center;
+        margin-top: -8px;
+        margin-left: -20px;
         }
         
         .title {

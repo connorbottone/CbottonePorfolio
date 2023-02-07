@@ -1,0 +1,35 @@
+.card-outer {
+    width: 500px;
+    height: 300px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    border-radius: 5px;
+    overflow: hidden;
+    margin: 50px auto;
+  }
+  
+  .card-inner {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+  }
+  
+  .profile-pic {
+    width: 105px;
+    height: 150px;
+    border-radius: 50%;
+    margin: 25px;
+  }
+  
+  .about-me {
+    padding: 25px;
+    width: calc(100% - 200px);
+  }
+  
+  .about-me h2 {
+    margin-bottom: 15px;
+  }
+  
+  .about-me p {
+    font-size: 14px;
+    line-height: 1.5;
+  }
