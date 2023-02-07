@@ -11,13 +11,13 @@ function App() {
     <>
   
       <Header currentPage={currentPage} setCurrentPage={setCurrentPage} />
-        <div  class="ball">{currentPage === "Aboutme" && <Aboutme />}
+        <div  class="ball">{currentPage === "Aboutme" && <Aboutme setCurrentPage={setCurrentPage} />}
       {currentPage === "Portfolio" && <Portfolio />}
       {currentPage === "Contactme" && <Contactme />}
       {currentPage === "Resume" && <Resume />}
       </div>
       <br></br>
-      <Footer />
+      <Footer setCurrentPage={setCurrentPage} />
     </>
   );
 }
