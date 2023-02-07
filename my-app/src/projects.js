@@ -1,17 +1,24 @@
+
+import   weather from "./images/weather.png";
+import genpass from "./images/genpass.PNG";
 const projects = [{
 
 title:"City weatther trackor",
-descripton:"This web application was built using  that shows the weather of the city you enter",
-webpagelink:"https://city-weather-tracker.netlify.app/",
-githublink:"githud.com",
-
+descripton:"This webpage is designed to find the weather in user inputed city name.Upon search of desiered city the user will be presented withThe date,An icon representation of weather conditions,The temperature,The humidity,And the wind speed.All of this data will be displayed for the present day and for the following 5 days to come.All past searches are sotred and listed under the search bar.The user can click on one of there past searched options to be presented with that weather info agian. All weather icons are animated upon hover.",
+webpagelink:"https://connorbottone.github.io/City-Weather-Tracker/",
+githublink:"https://github.com/connorbottone/City-Weather-Tracker.git",
+image:weather,
 
 
 
 
 },
 {
-title:"City weatther trackors",
+title:"Password Generator",
+descripton:"This web application was designed to generate a random password based on user-selected criteria. The user can fine-tune the length of their desired password as well as choose between Capital letters Lowercase letters Special characters And Numbers to be included within the generated password.If the user enters a desierd password length>8 and <128 or enters a value in text fromat the user will be prompted to reenter there desired length.",
+webpagelink:"https://connorbottone.github.io/Genpass/",
+githublink:"https://github.com/connorbottone/Genpass.git",
+image:genpass,
 },
 ]
 export  {projects};
