@@ -9,8 +9,8 @@ const ContactMe = () => {
 
     return (
         <div>
-            <h1>ContactMe Me</h1>
-            <div id ="h3"></div>
+            
+            <div  className='speech-bubble'id ="h3">
             <card id='h2'>
                 <h3>CONTACT ME DIRECTLY </h3>
                 
@@ -18,7 +18,7 @@ const ContactMe = () => {
                 <h1>&#8594;</h1>
                    
                     <h3>MADE USING EMAILJS</h3>
-                        </card>
+                        </card></div>
             <FormData />
        
             
