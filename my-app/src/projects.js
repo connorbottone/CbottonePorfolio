@@ -5,7 +5,7 @@ import social from "./videos/social.webm"
 import quiz from "./videos/quiz.webm"
 const projects = [{
 
-title:"City weatther trackor",
+title:"City weather tracker",
 descripton:"This webpage is designed to find the weather in user inputed city name.Upon search of desiered city the user will be presented withThe date,An icon representation of weather conditions,The temperature,The humidity,And the wind speed.All of this data will be displayed for the present day and for the following 5 days to come.All past searches are sotred and listed under the search bar.The user can click on one of there past searched options to be presented with that weather info agian. All weather icons are animated upon hover.",
 webpagelink:"https://connorbottone.github.io/City-Weather-Tracker/",
 githublink:"https://github.com/connorbottone/City-Weather-Tracker.git",
