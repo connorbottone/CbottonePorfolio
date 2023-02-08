@@ -21,13 +21,15 @@ const style = {
 },
 border: {
     display: 'flex',
-    
+    marginLeft:"100px",
     alignItems: 'center',
     width: '80%',
     height: '110px',
     border: '1px solid black',
     margin: 'auto',
-    marginTop: '850px',
+    marginTop: 'auto',
+        bottom: '0',
+        position: 'fixed',
   
     borderRadius: '80px',
     border: '2px solid bisque',
