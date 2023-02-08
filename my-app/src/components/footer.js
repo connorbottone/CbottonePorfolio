@@ -21,7 +21,7 @@ const style = {
 },
 border: {
     display: 'flex',
-    marginLeft:"100px",
+    marginLeft:"150px",
     alignItems: 'center',
     width: '80%',
     height: '110px',
