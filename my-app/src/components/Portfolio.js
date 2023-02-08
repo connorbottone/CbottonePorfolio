@@ -9,7 +9,8 @@ const Portfolio = () => {
                     <div className="project-card">
                         <h2>{project.title}</h2> 
                         <div className="project-image-container">
-                            <img id="img" src={project.image}></img>
+                            {/* <img id="img" src={project.image}></img> */}
+                            <video controls autoplay id="img" src={project.video}></video>
                         </div>
                         <div className="project-description">
                             <h3>{project.descripton}</h3>

@@ -27,7 +27,7 @@ border: {
     height: '110px',
     border: '1px solid black',
     margin: 'auto',
-    marginTop: '800px',
+    marginTop: '850px',
   
     borderRadius: '80px',
     border: '2px solid bisque',
