@@ -8,8 +8,8 @@ const AboutMe = ({setCurrentPage}) => {
         <div class="card-inner">
         <img src={test} alt="Your Image" className="profile-pic" />
           <div class="about-me">
-            <h2>About Me</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
+            <h2>Welcome</h2>
+            <p>Hi my name is Connor Bottone. I am fascinated by technogloy and all of its advancments over the years. I love learing and problem solving and have been in web-development since Nov.2022. My introduction into web-develpoment began at the rutgers coding bootcamp and i am excited to continue on my journey and grow my knowledge within the tech feild.</p>
           <button id="portfolioBtn"onClick={() => setCurrentPage('Portfolio')}>P O R T F O L I O</button>
           </div>
 

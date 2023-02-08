@@ -2,6 +2,7 @@ import weather from "./videos/weather.webm"
 import note  from"./videos/note.webm"
 import passwordGen from "./videos/passwordGen.webm"
 import social from "./videos/social.webm"
+import quiz from "./videos/quiz.webm"
 const projects = [{
 
 title:"City weatther trackor",
@@ -29,9 +30,16 @@ githublink:"https://github.com/connorbottone/personal-note-taker.git",
 video:note,
 },
 {
+title:"States and Capitals Quiz",
+descripton:"This website provides users with a 6 question long quiz on States and ther Capitols.The user has 60 seconds to complete the game.If the user select the correct answer the messege great job will be displayed.If incorrect the message sorry thats incorect will be displayed and 10 seconds will be deduced from the remaing time.Once the user is finshed with all the quesions or the time is up the user will be prompted to enter there initals to be stored on the highscore leaderboards.",
+webpagelink:"https://connorbottone.github.io/P3Quiz-repo/",
+githublink:"https://github.com/connorbottone/P3Quiz-repo.git",
+video:quiz,
+},
+{
 title:"Back-End Social-Network-orginizer",
 descripton:"This application was designed to manage a soical media platform on the back end. Thhe routes designed within this project give a user the ability to add or remove a profile, add and remove freinds, add or remove thoughts, and add or remove reactions to thoughts. The user can also update a profile, add or remove a friend, add or remove a reaction, and add or remove a thought. The user can also get all users, get a user by id, get all friends, get all thoughts, get a thought by id, and get all reactions.",
-githublink:"",
+githublink:"https://github.com/connorbottone/Social-Network-orginization.git",
 video:social,
 }
 ]
