@@ -76,8 +76,4 @@
 ## Author
 (email at : connorbottone@gmail.com)
 
-https://medium.com/geekculture/how-to-send-emails-from-a-form-in-react-emailjs-6cdd21bb4190   
 
-
-
-https://codepen.io/nashvail/pen/wpGgXO
