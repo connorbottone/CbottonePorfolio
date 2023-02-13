@@ -48,3 +48,53 @@
         }
 
         
+        
+        @media screen and (max-width: 600px) {
+          .header {
+            background-color: #45545e;
+            color: #f1d21d;
+            padding: 4px;
+            height: 100%;
+            width: 100%;
+            
+            text-align: center;
+            margin-top: -8px;
+            margin-left: -20px;
+            }
+            
+            .title {
+            font-family: 'Open Sans', sans-serif;
+            font-size: 36px;
+            font-weight: bold;
+            text-shadow: 1px 1px #333;
+            margin-bottom: 20px;
+            }
+            
+            .nav {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            }
+            
+            .nav div {
+            display: inline-block;
+            margin-right: 200px;
+            font-family: 'Open Sans', sans-serif;
+            font-size: 20px;
+            cursor: pointer;
+            transition: all 0.3s ease-in-out;
+            }
+            
+            .nav div:hover {
+            color: #f3f2f0;
+            }
+            
+            .navActive {
+            color: #f1ede7;
+            font-weight: bold;
+            }
+        }

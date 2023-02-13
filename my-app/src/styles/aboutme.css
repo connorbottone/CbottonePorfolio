@@ -107,3 +107,28 @@
     box-shadow: 7px 7px 7px #ccc;
     color: #4c93af ;
   }
+  @media screen and (max-width: 768px) {
+    .outer-card {
+      width: 90%;
+      margin-left: 0;
+    }
+    .card-outer {
+      width: 90%;
+      height: 70%;
+      margin: 0;
+    }
+    .card-inner {
+      flex-direction: column;
+    }
+    .profile-pic {
+      width: 15%;
+      height: 80%;
+      margin: 0;
+    }
+    .about-me {
+      width: 80%;
+      padding: 0;
+    }
+  }
+    
+  
