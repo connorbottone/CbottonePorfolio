@@ -61,3 +61,29 @@
     height: 400px;
     object-fit: cover;
 }
+@media screen and (max-width: 1024px) {
+    .project-list {
+        margin-left: 0;
+    }
+
+    .project-card {
+        width: 90%;
+        height: auto;
+        margin: 30px auto;
+    }
+
+    .project-image-container {
+        height: 50%;
+    }
+
+    .project-description {
+        font-size: 16px;
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    #img {
+        width: 100%;
+        height: auto;
+    }
+}
