@@ -18,10 +18,28 @@ margin-top: -5px;
    
     border: 2px solid rgb(0, 0, 0);
 }
+  
 
 #pdf:hover {
     background-color: #f09116;
     box-shadow: 7px 7px 7px #ccc;
     
     color: #4c93af ;
+  }
+  
+    
+  @media screen and (max-width: 900px) {
+    .resume {
+      margin-left: 50px;
+      margin-top: 25px;
+    }
+    object[data$=".pdf"] {
+        width: 140%;
+        height: 700px;
+      }
+    #pdf {
+      margin-left: 50px;
+      margin-top: 10px;
+      width: 70%;
+    }
   }
