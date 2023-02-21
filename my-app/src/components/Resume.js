@@ -19,7 +19,7 @@ const Resume = () => {
         </p>
       </object>
       <br />
-      <button id="pdf" onClick={handleDownload}>Download PDF</button>
+     
     </div>
     );
 }

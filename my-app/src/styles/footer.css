@@ -1,0 +1,29 @@
+html, body {
+    height: 100%;
+    margin: 0;
+  }
+  
+  footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    margin-top: auto;
+    position: fixed;
+    
+  }
+  
+  main {
+    min-height: 100%;
+    margin-bottom: -210px; /* height of the footer */
+  }
+@media screen and (max-width: 900px) {
+    .a{
+        display: none;
+        width: 30px;
+        height: 40px;
+        padding: 50px;
+        margin-Left: 130px;
+      
+    }
+    
+    }

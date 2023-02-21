@@ -3,9 +3,16 @@ import note  from"./videos/note.webm"
 import passwordGen from "./videos/passwordGen.webm"
 import social from "./videos/social.webm"
 import quiz from "./videos/quiz.webm"
+import study from "./videos/StudyHelper.webm"
 const projects = [{
 
-title:"City weather tracker",
+    title:"Study Helper",
+    descripton:" This applicaiton was designed to help sutdents study aswell as give teachers a fun way to engae with ther students. This application uses and apollo server aswell as mongosse atlas integration with heroku to create a full stack application. A user has the ability to browse pre-made quizes from grades 1-3. The user must be loged in to use any of this content. This is achived by assigned a token to each user apon login. The user can also create thier own quizes and save them to the database. The user can then search for there newly created quiz by title to begin taking th quiz. This feature was added for teachers to be able to create cutom quizes for there classroom. ",
+    webpagelink:"https://safe-ridge-06648.herokuapp.com/",
+    githublink:"https://github.com/connorbottone/StudyHelper.git",
+    video:study,},
+
+    { title:"City weather tracker",
 descripton:"This webpage is designed to find the weather in user inputed city name.Upon search of desiered city the user will be presented withThe date,An icon representation of weather conditions,The temperature,The humidity,And the wind speed.All of this data will be displayed for the present day and for the following 5 days to come.All past searches are sotred and listed under the search bar.The user can click on one of there past searched options to be presented with that weather info agian. All weather icons are animated upon hover.",
 webpagelink:"https://connorbottone.github.io/City-Weather-Tracker/",
 githublink:"https://github.com/connorbottone/City-Weather-Tracker.git",

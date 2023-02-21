@@ -1,43 +1,33 @@
 import * as React from 'react';
+import "../styles/footer.css"
 
 const style = {
-    img:{
-        width: '100px',
-        height: '100px',
-        padding: '20px',
-        marginLeft: '260px',
-      
-        
-      
-       
-        
-
-
-    
- 
-    
-   
-
-},
-border: {
-    display: 'flex',
-    marginLeft:"150px",
-    alignItems: 'center',
-    width: '80%',
-    height: '110px',
-    border: '1px solid black',
-    margin: 'auto',
-    marginTop: 'auto',
-        bottom: '0',
-        position: 'fixed',
+  img:{
+    width: '50px',
+    height: '50px',
+    padding: '10px',
+    marginLeft: '260px',
   
-    borderRadius: '80px',
-    border: '2px solid bisque',
+  }
+  ,
+border: {
+ 
+  display: 'flex',
+  alignItems: 'center',
+  margintop: '500px',
+  width: '70%',
+  height: '60px',
+ 
+  margin: 'auto',
+
+  borderRadius: '80px',
+  border: '5px solid bisque',
    
         
 },}
 const Footer= ({x,setCurrentPage}) => {
   return (
+    <footer>
     <div style={style.border}>
    
     <a href='https://github.com/connorbottone?tab=repositories'><svg style={style.img} xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16">
@@ -61,7 +51,7 @@ const Footer= ({x,setCurrentPage}) => {
 
 
 
-  </div> 
+  </div> </footer>
     
   
   );

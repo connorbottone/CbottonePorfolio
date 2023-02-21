@@ -17,7 +17,9 @@ function App() {
       {currentPage === "Resume" && <Resume />}
       </div>
       <br></br>
+      <footer>
       <Footer setCurrentPage={setCurrentPage} />
+      </footer>
     </>
   );
 }
