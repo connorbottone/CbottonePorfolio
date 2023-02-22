@@ -44,8 +44,8 @@
 }
 
 .card-outer {
-    width: 500px;
-    height: 300px;
+    width: 43%;
+    height: 60%;
     box-shadow: 0px 15px 25px rgba(0, 0, 0, 0.1);
     border-radius: 15px;
     overflow: hidden;
@@ -107,6 +107,24 @@
     box-shadow: 7px 7px 7px #ccc;
     color: #4c93af ;
   }
+  .card-outer2 {
+    width: 500px;
+    height: 300px;
+    box-shadow: 0px 15px 25px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+    overflow: hidden;
+    margin: 50px auto;
+    z-index: 5;
+    
+    
+    margin-top: -23px;}
+    .skills {
+      width: 70px;
+      height: 70px;
+      border-radius: 20%;
+      margin: 25px;
+      
+    }
   @media screen and (max-width: 768px) {
     .outer-card {
       width: 90%;
@@ -114,21 +132,37 @@
     }
     .card-outer {
       width: 90%;
-      height: 70%;
+      height: 90%;
       margin: 0;
     }
     .card-inner {
       flex-direction: column;
     }
+    #welcome{
+      display: none;
+    }
     .profile-pic {
+      
       width: 15%;
       height: 80%;
       margin: 0;
     }
     .about-me {
-      width: 80%;
+      width: 90%;
+      height: fit-content;
       padding: 0;
+      
+    }
+    .card-outer2 {
+      width: 90%;
+      height: 70%;
+      margin: 0;
+    }
+    .skills {
+      width: 15%;
+      height: 15%;
+      margin: 0;
+      margin: 20px;
     }
   }
-    
-  
+ 

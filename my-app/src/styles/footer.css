@@ -7,6 +7,7 @@ html, body {
     position: absolute;
     bottom: 0;
     width: 100%;
+    margin-left: -7%;
     margin-top: auto;
     position: fixed;
     
@@ -16,14 +17,6 @@ html, body {
     min-height: 100%;
     margin-bottom: -210px; /* height of the footer */
   }
-@media screen and (max-width: 900px) {
-    .a{
-        display: none;
-        width: 30px;
-        height: 40px;
-        padding: 50px;
-        margin-Left: 130px;
-      
-    }
+@media screen and (max-width: 1625px) {
     
     }
