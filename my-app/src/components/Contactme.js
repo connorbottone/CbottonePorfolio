@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { send } from 'emailjs-com';
 import FormData from "./Formdata";
+import contact from '../images/cont.jpg'
 import'../styles/contactMe.css'
 
 const ContactMe = () => {
@@ -9,16 +10,8 @@ const ContactMe = () => {
 
     return (
         <div>
+            <img id="contact" src={contact}></img>
             
-            <div  className='speech-bubble'id ="h3">
-            <card id='h2'>
-                <h3>CONTACT ME DIRECTLY </h3>
-                
-                <h3>VIA EMAIL   </h3>
-                
-                   
-                    <h3>MADE USING EMAILJS</h3>
-                        </card></div>
             <FormData />
        
             

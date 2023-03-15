@@ -1,9 +1,10 @@
+
 .outer-card {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 500PX;
-    width: 1300px;
+    height: 600PX;
+    width: 1200px;
     margin-left: 230px;
     border-radius: 10px;
     margin-top: 130px;
@@ -84,7 +85,7 @@
   }
   
   .about-me p {
-    font-size: 14px;
+   font : 15px 'Roboto', sans-serif;
     line-height: 1.5;
   }
   #portfolioBtn{
@@ -108,19 +109,19 @@
     color: #4c93af ;
   }
   .card-outer2 {
-    width: 500px;
-    height: 300px;
+   
+    height: 400px;
     box-shadow: 0px 15px 25px rgba(0, 0, 0, 0.1);
     border-radius: 15px;
     overflow: hidden;
-    margin: 50px auto;
+    margin: 30px auto;
     z-index: 5;
     
     
     margin-top: -23px;}
     .skills {
-      width: 70px;
-      height: 70px;
+      width: 80px;
+      height: 80px;
       border-radius: 20%;
       margin: 25px;
       

@@ -3,8 +3,8 @@ import "../styles/footer.css"
 
 const style = {
   img:{
-    width: '15%',
-    height: '15%',
+    width: '13%',
+    height: '13%',
     padding: '80%',
     
   
@@ -14,9 +14,9 @@ border: {
  
   display: 'flex',
   alignItems: 'center',
-  margintop: '500px',
+  margintop: '400px',
   width: '60%',
-  height: '40px',
+  height: '45px',
   marginleft: '10%',
  
   margin: 'auto',

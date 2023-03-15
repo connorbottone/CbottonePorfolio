@@ -15,11 +15,12 @@ function App() {
       {currentPage === "Portfolio" && <Portfolio />}
       {currentPage === "Contactme" && <Contactme />}
       {currentPage === "Resume" && <Resume />}
+      
       </div>
       <br></br>
-      <footer>
+      {/* <footer>
       <Footer setCurrentPage={setCurrentPage} />
-      </footer>
+      </footer> */}
     </>
   );
 }

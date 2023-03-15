@@ -2,29 +2,61 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 5%;
+    margin-top: 10%;
     padding: 40px;
-    background-color: rgb(250, 208, 157);
+    background-color: rgba(250, 208, 157, 0.589);
     border-radius: 10px;
-    box-shadow: 0 1px 6px rgba(168, 23, 23, 0.12), 0 1px 4px rgba(0, 0, 0, 0.24);
-    height: 30%;
-    width: 75%;
-    margin-left: 25%;
+    box-shadow: 8px 8px 16px #0f0f0ffb,
+    -8px -8px 16px #f1eeee;
+    height: 70%;
+    width: 45%;
+    
+    margin-left: 65%;
     border: 2px solid rgb(184, 132, 65);
+    position: absolute;
+    z-index: 2;
+    top: 50px;
+    left: 400px;
   }
+
   
   .App input[type='text'] {
-    width: 100%;
+    width: 90%;
+    padding: 20px;
+    outline: none;
+    border-radius: 10px;
+    color: #000;
+    font-size: 1em;
+    background: transparent;
+    border-left: 2px solid #00000062;
+    border-bottom: 2px solid #0000004d;
+    transition: 0.1s;
+    border-bottom-left-radius: 8px;
+    margin-bottom: 30px;
+    position: relative;
+    margin: 30px;
+    margin-top: 70px;
+  width: 400px;
+
+      
+  }
+  .App input[name='message'] {
+    width: 90%;
     padding: 40px;
-    margin-bottom: 10px;
-    font-size: 16px;
-    border-radius: 50px;
-    border: none;
-    /* box-shadow: 0px 0px 5px #ccc; */
-    height: auto;
-    inline-size: 550px;
-    overflow-wrap: break-word; 
-    border: 2px solid bisque;
+    outline: none;
+    border-radius: 10px;
+    color: #000;
+    font-size: 1em;
+    background: transparent;
+    border-left: 2px solid #00000054;
+    border-bottom: 2px solid #00000036;
+    transition: 0.1s;
+    border-bottom-left-radius: 8px;
+    margin-bottom: 30px;
+    position: relative;
+    margin: 40px;
+  width: 400px;
+
       
   }
   
